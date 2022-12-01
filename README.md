@@ -1,6 +1,3 @@
-# Tuto_Git
-Apprendre à utiliser Git
-
 # Commande de base
 
 Pour pouvoir récupérer un **repo** git il nous suffit d'utiliser cette commande ;
