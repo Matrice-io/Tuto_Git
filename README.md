@@ -67,10 +67,17 @@ $>  Tuto_Git git:(main)
 
 ```
 
-maintenant nous voulons envoyer le fichier *text_de_test.txt* dans le **main** sans passer par git checkout, nous pouvons utiliser git merge 
+maintenant nous voulons envoyer le fichier *text_de_test.txt* dans le **main** sans passer par git checkout, nous pouvons utiliser git merge (pour la compréhension de l'action j'ai effectué un checkout, utilisé juste pour le voir le contenu de la branch)
 
 ```
 
+(base) ➜  Tuto_Git git:(test) ls
+README.md        test_de_text.txt
+(base) ➜  Tuto_Git git:(test) git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ➜  Tuto_Git git:(main) ls
+README.md
 
 
 ```
