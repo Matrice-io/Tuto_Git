@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-# Tuto_Git
-Apprendre à utiliser Git
-
->>>>>>> test
 # Commande de base
 
 Pour pouvoir récupérer un **repo** git il nous suffit d'utiliser cette commande ;
@@ -63,4 +57,20 @@ git push --set-upstream origin test
 ```
 
 une fois fait ceci nous pouvons changer de branch est voir que notre main est vide alors que nous venons d'envoyer un fichier
+```
+$>  Tuto_Git git:(test) ls
+README.md        text_de_test.txt
+$>  Tuto_Git git:(test) git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$>  Tuto_Git git:(main) 
 
+```
+
+maintenant nous voulons envoyer le fichier *text_de_test.txt* dans le **main** sans passer par git checkout, nous pouvons utiliser git merge 
+
+```
+
+
+
+```
