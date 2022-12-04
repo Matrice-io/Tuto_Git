@@ -112,4 +112,4 @@ nous pouvons aussi simplifier / modifier comme nous le souhaitons le message du 
  1 file changed, 8 insertions(+)
 ```
 
-ici nous avons remplacer le "git commit -am <commentaire> " en "git toto <commentaire>"
+ici nous avons remplacer le "git commit -am *'commentaire'* " en "git toto *'commentaire'* "
