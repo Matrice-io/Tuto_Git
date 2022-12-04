@@ -49,6 +49,14 @@ pour créer une branche
 ```
 git branch test
 ```
+(
+  pour supprimer une branche
+  ```
+  git branch -D <nom de la branche>
+  ```
+
+
+)
 si nous relançons git nous aurons le resultat suivant
 ```
 * main (la branche déjà existante)
@@ -57,8 +65,15 @@ si nous relançons git nous aurons le resultat suivant
 
 si nous souhaitons passer à une autre branche nous devons taper cette commande 
 ```
-git checkout <nom_de_la_branch>
+git checkout <nom de la branche>
 ```
+(
+  nous pouvons aussi combiner les deux avec :
+  ```
+  git checkout -b <nom de la branche>
+  ```
+)
+
 une fois dans cette branche nous allons push un fichier 
 
 ```
@@ -113,3 +128,18 @@ nous pouvons aussi simplifier / modifier comme nous le souhaitons le message du 
 ```
 
 ici nous avons remplacer le "git commit -am *'commentaire'* " en "git toto *'commentaire'* "
+
+Pour vous permettre de la différence entre chaque branche :
+```
+git diff
+```
+
+Pour voir toutes vos actions sur le repo git vous pouvez faire : 
+```
+git log
+```
+petit bonus :
+
+```
+git log --graph --oneline
+```
