@@ -103,3 +103,13 @@ git commit -am 'commentaire à rajouter'
 ```
 il permet de combiner deux action en une (sinon evidemment il reste git de VScode)
 
+nous pouvons aussi simplifier / modifier comme nous le souhaitons le message du add / commit / push :
+
+```
+➜  Tuto_Git git:(main) ✗ git config --global alias.toto "commit -am"
+➜  Tuto_Git git:(main) ✗ git toto "noice" 
+[main 8e0e03a] noice
+ 1 file changed, 8 insertions(+)
+```
+
+ici nous avons remplacer le "git commit -am <commentaire> " en "git toto <commentaire>"
