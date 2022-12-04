@@ -1,4 +1,11 @@
+# Qu'est ce que Git ? 
+
+un logiciel / un outil permettant de contrôler les versions d'un projet informatique
+
+
+
 # Commande de base
+
 
 Pour pouvoir récupérer un **repo** git il nous suffit d'utiliser cette commande ;
 ```
