@@ -95,3 +95,11 @@ Fast-forward
 ➜  Tuto_Git git:(test) ls
 README.md  text_de_test.txt 
 ```
+
+une autre méthode d'utiliser le git add / git commit -m 'commentaire' / git push est de faire ceci :
+```
+git commit -am 'commentaire à rajouter'
+
+```
+il permet de combiner deux action en une (sinon evidemment il reste git de VScode)
+
