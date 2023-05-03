@@ -49,14 +49,14 @@ pour créer une branche
 ```
 git branch test
 ```
-(
-  pour supprimer une branche
-  ```
-  git branch -D <nom de la branche>
-  ```
-
-
-)
+pour supprimer une branche
+```
+git branch -d <nom de la branche>
+```
+pour supprimer de force une branche
+```
+git branch -D <nom de la branche>
+```
 si nous relançons git nous aurons le resultat suivant
 ```
 * main (la branche déjà existante)
@@ -67,12 +67,10 @@ si nous souhaitons passer à une autre branche nous devons taper cette commande
 ```
 git checkout <nom de la branche>
 ```
-(
-  nous pouvons aussi combiner les deux avec :
-  ```
-  git checkout -b <nom de la branche>
-  ```
-)
+nous pouvons aussi combiner les deux avec :
+```
+git checkout -b <nom de la branche>
+```
 
 une fois dans cette branche nous allons push un fichier 
 
